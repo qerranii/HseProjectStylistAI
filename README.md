@@ -45,37 +45,6 @@ This setup ensures a clean, isolated environment for development and testing of 
 
 We welcome contributions to AI-Stylist! Whether you want to report bugs, suggest new features, or submit code improvements, your help is appreciated.
 
-### How to contribute
-
-1. **Fork the repository**  
-   Create your own copy of the project by forking the repo on GitLab.
-
-2. **Clone your fork**
-```
-git clone https://gitlab.informatics.ru/2024-2025/hse/s101/mshp-final-project-meow.git
-cd first_project
-```
-
-3. **Create a new branch**  
-   Use a descriptive name for your branch:
-```
-git checkout -b feature/your-feature-name
-```
-
-4. **Make your changes**  
-   Implement your feature or fix the bug. Make sure your code follows the existing style and conventions.
-
-5. **Test your changes**  
-   Run the application and any tests to ensure your changes work correctly.
-
-6. **Commit and push**
-```
-git add .
-git commit -m "Description of your changes"
-git push origin feature/your-feature-name
-```
-7. **Create a merge request (MR)**  
-   Open a merge request on GitLab from your branch to the main branch. Describe your changes clearly.
 
 ### Guidelines
 
@@ -90,34 +59,7 @@ If you have questions or need assistance, feel free to open an issue or contact 
 
 Thank you for helping make AI-Stylist better!
 
-## Authors and Acknowledgments
 
-Created by the MEOW team, 2025.  
-Special thanks to all contributors and testers for their valuable support and feedback!
-
-## License
-
-MIT License
-
-Copyright (c) 2025 MEOW Team
-
-Permission is hereby granted, free of charge, to any person obtaining a copy  
-of this software and associated documentation files (the "Software"), to deal  
-in the Software without restriction, including without limitation the rights  
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell  
-copies of the Software, and to permit persons to whom the Software is  
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all  
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR  
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,  
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE  
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER  
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,  
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE  
-SOFTWARE.
 
 ## Project Status
 

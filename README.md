@@ -16,19 +16,6 @@ AI-Stylist is a smart app designed to help you find your unique style, choose th
 
 These features combine to create a personalized, interactive, and community-driven stylistic experience that adapts to your preferences and environment.
 
-## Notes
-
-- Make sure you have Python 3.6 or higher installed.
-- To update dependencies after adding new packages, run:
-```
-pip freeze > requirements.txt
-```
-- To deactivate the virtual environment, simply run:
-```
-deactivate
-```
-This setup ensures a clean, isolated environment for development and testing of AI-Stylist on your local machine.
-
 ## Roadmap
 
 - **Location-Based Styling:** Automatically generate outfit recommendations based on user geolocation and local weather conditions on the "For You" page.

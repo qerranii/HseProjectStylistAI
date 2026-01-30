@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Log In</title>
+</head>
+<body>
+    <h1>Log In</h1>
+    <br>
+    <form method="POST" action="{% url 'log_in' %}">
+        {% csrf_token %}
+        <label for="username">Username:</label>
+        <input type="text" id="username" placeholder="Enter username" name="username" required><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Enter password" name="password" required><br>
+
+        <button type="submit">Log In</button>
+    </form>
+    <br>
+    <p>Don't have an account? <a href="{% url 'sign_up' %}">Sign Up here</a>.</p>
+    <p>By logging in, you agree to our <a href="{% url 'terms' %}">Terms and Conditions</a>.</p>
+</body>
+</html>

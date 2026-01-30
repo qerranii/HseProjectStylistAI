@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+</head>
+<body>
+
+    <h1>Your profile</h1>
+
+    <section>
+        <h2>Personal Information</h2>
+        <p><strong>Username:</strong> <i>{{ user.username }}</i></p>
+        <p><strong>Email:</strong> <i>{{ user.email }}</i></p>
+    </section>
+
+    <section>
+        <h2>Body Measurements</h2>
+        <p><strong>Height:</strong><i>{{ user.height }}</i> </p>
+        <p><strong>Weight:</strong><i>{{ user.weight }}</i> </p>
+        <p><strong>Chest:</strong><i>{{ user.chest}}</i> </p>
+        <p><strong>Waist:</strong><i>{{ user.waist }}</i> </p>
+        <p><strong>Hips:</strong><i>{{ user.hips }}</i> </p>
+    </section>
+
+    <section>
+        <h2>About Me</h2>
+        <p><i>{{ user.about }}</i></p>
+    </section>
+
+    <section>
+        <h2>Quick Links</h2>
+        <p><a href="{% url 'gallery_liked' %}">View Liked Posts</a></p>
+        <p><a href="{% url 'profile_edit' %}">Edit Profile</a></p>
+    </section>
+</body>
+</html>

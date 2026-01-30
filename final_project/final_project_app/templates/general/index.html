@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main Page</title>
+</head>
+<body>
+    <h1>Main Page</h1>
+    <div>
+
+        <h1>Welcome to AI Fashion Stylist!</h1>
+        <p>Your personal AI assistant for perfect outfits</p>
+
+        <section>
+            <h2>Outfit of the day</h2>
+            <p>Stay trendy with our AI-picked outfit of the day!</p>
+        </section>
+
+        <section>
+            <h2>Why choose us?</h2>
+            <ul>
+                <li>AI-powered fashion recommendations</li>
+                <li>Personalized styling based on your preferences</li>
+                <li>Daily outfit inspirations</li>
+                <li>Trendy looks for every occasion</li>
+            </ul>
+            <a href="{% url 'about' %}">More about us </a>
+        </section>
+
+        <section>
+            <h2>What our users say</h2>
+            <blockquote>"This AI stylist completely changed my life! Highly recommended!" - Maria K.</blockquote>
+            <blockquote>"I love how easy it is to get outfit ideas based on my taste" - Alex M.</blockquote>
+        </section>
+
+        <section>
+            <h2>Get Your Personalized Look</h2>
+            <p>Sign up now and let AI style you every day!</p>
+            <form action="{% url 'sign_up' %}" method="get">
+                <button type="submit">Sign Up</button>
+            </form>
+            <br>
+            <p>Already have an account?</p>
+            <form action="{% url 'log_in' %}" method="get">
+                <button type="submit">Log In</button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>

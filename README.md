@@ -16,59 +16,6 @@ AI-Stylist is a smart app designed to help you find your unique style, choose th
 
 These features combine to create a personalized, interactive, and community-driven stylistic experience that adapts to your preferences and environment.
 
-## Installation
-
-Follow these steps to set up the AI-Stylist application locally:
-
-### 1. Clone the repository
-
-Open your terminal and run:
-```
-git clone https://gitlab.informatics.ru/2024-2025/hse/s101/mshp-final-project-meow.git
-cd final_project
-```
-
-### 2. Create and activate a virtual environment
-
-It is recommended to use a virtual environment to isolate project dependencies.
-
-- On Linux/macOS:
-```
-python3 -m venv venv
-source venv/bin/activate
-```
-
-- On Windows (PowerShell):
-```
-python -m venv venv
-venv\Scripts\Activate
-```
-
-### 3. Install dependencies
-
-With the virtual environment activated, install the required packages:
-```
-pip install -r requirements.txt
-```
-
-## Usage
-
-### 4. Run the development server
-
-Start the Django development server by running:
-```
-python manage.py run_all
-```
-
-### 5. Access the application
-
-Open your web browser and go to:
-```
-http://127.0.0.1:8000/
-```
-
-You should see the AI-Stylist app running locally.
-
 ## Notes
 
 - Make sure you have Python 3.6 or higher installed.

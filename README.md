@@ -24,9 +24,6 @@ These features combine to create a personalized, interactive, and community-driv
 - **Profile Page:** Allow users to edit personal data, view saved liked/disliked outfits, their posts, and visit other users’ profiles.
 - **Authentication:** Support user registration, login, and logout for secure personalized experience.
 - **Paid Version:** Introduce a subscription model that limits the number of outfit generations in the free version, while offering unlimited outfit generations and premium features to paid users.
-- **Mobile Support:** Plan development of mobile apps for iOS and Android.
-- **E-Commerce Integration:** Integrate with online stores to allow direct purchase of recommended items.
-- **Localization:** Add multilingual support and adapt recommendations to regional fashion trends.
 
 ## Contributing
 
@@ -39,10 +36,6 @@ We welcome contributions to AI-Stylist! Whether you want to report bugs, suggest
 - Ensure your code is well-documented and readable.
 - Run existing tests and add new ones if applicable.
 - Follow the project’s coding standards and style.
-
-### Need help?
-
-If you have questions or need assistance, feel free to open an issue or contact the maintainers at [aistylist@gmail.com].
 
 Thank you for helping make AI-Stylist better!
 
